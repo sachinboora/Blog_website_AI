@@ -1,0 +1,178 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('ai-background.jpg');
+    background-size: cover;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: #ffffff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logo img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav a {
+    color: #333333;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    color: #ff6600;
+  }
+  
+  main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .featured {
+    margin-bottom: 50px;
+  }
+  
+  .featured h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .featured article {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .featured img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    margin-right: 20px;
+  }
+  
+  .featured h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .featured p {
+    font-size: 16px;
+    color: #666666;
+    margin-bottom: 10px;
+  }
+  
+  .featured a {
+    color: #ff6600;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .featured a:hover {
+    text-decoration: underline;
+  }
+  
+  .recent-posts {
+    margin-bottom: 50px;
+  }
+  
+  .recent-posts h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .recent-posts ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .recent-posts li {
+    margin-bottom: 10px;
+  }
+  
+  .recent-posts a {
+    color: #333333;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .recent-posts a:hover {
+    color: #ff6600;
+  }
+  
+  .about {
+    margin-bottom: 50px;
+  }
+  
+  .about h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .about p {
+    font-size: 16px;
+    color: #666666;
+    margin-bottom: 10px;
+  }
+  
+  .about a {
+    color: #ff6600;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .about a:hover {
+    text-decoration: underline;
+  }
+  
+  footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: #333333;
+    color: #ffffff;
+  }
+  
+  .social-media a {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  .social-media img {
+    width: 30px;
+    height: 30px;
+  }
+  
+  .social-media a:hover img {
+    filter: brightness(0) invert(1);
+  }
+  
+  .footer-text {
+   font-size: 14
+  }  

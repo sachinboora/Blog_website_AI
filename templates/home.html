@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>AI News and Blogs - Home</title>
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+	<nav>
+		<ul>
+			<li><a href="/">Home</a></li>
+			<li><a href="/new-blogs">New Blogs</a></li>
+			<li><a href="/archive">Archive</a></li>
+			<li><a href="/about-us">About Us</a></li>
+			<li><a href="/contact-us">Contact Us</a></li>
+		</ul>
+	</nav>
+
+	<section class="hero">
+		<div class="hero-content">
+			<h1>AI News and Blogs</h1>
+			<p>Stay updated with the latest news and articles on AI</p>
+			<a href="/new-blogs" class="btn">Read More</a>
+		</div>
+	</section>
+
+	<section class="featured-blogs">
+		<h2>Featured Blogs</h2>
+		<div class="blog-card">
+			<img src="{{ url_for('static', filename='blog1.jpg') }}">
+			<div class="blog-card-content">
+				<h3>10 Best Practices for Machine Learning</h3>
+				<p>Learn about the best practices to follow when working with machine learning</p>
+				<a href="#" class="btn">Read More</a>
+			</div>
+		</div>
+		<div class="blog-card">
+			<img src="{{ url_for('static', filename='blog2.jpg') }}">
+			<div class="blog-card-content">
+				<h3>The Future of AI in Healthcare</h3>
+				<p>Discover the potential of AI in transforming the healthcare industry</p>
+				<a href="#" class="btn">Read More</a>
+			</div>
+		</div>
+	</section>
+
+	<footer>
+		<ul>
+			<li><a href="#">Twitter</a></li>
+			<li><a href="#">GitHub</a></li>
+		</ul>
+	</footer>
+</body>
+</html>
